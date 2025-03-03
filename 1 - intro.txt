@@ -1,0 +1,18 @@
+How to analyze fast moving, variety, and huge volume of data real time?
+
+- batch processing is impossible for some cases due to fast decision making. 
+- we need real time data processing to produce decisions in seconds.
+- another reason why using real time
+1. fast decision
+2. anomaly detection for security
+3. optimisation efficiency
+4. competitive, business can see market trend fast
+
+example of real time data processing
+1. self-driving car
+2. stock market
+3. e-commerce
+4. API for weather detection, pricing in online driver
+
+real-time process
+Data Ingestion (from API, log, or other sources) > stream processing [kafka](as bridge to process what method our data should done, prediction, update data, show notification, etc) > output and action
