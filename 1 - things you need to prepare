@@ -1,0 +1,7 @@
+1. Python latest (3.12) version
+2. install docker
+3. install docker image zookeper and kafka (for installing dependencies)
+   > sign in docker
+   > search for johnnypark/kafka-zookeeper, then pull
+   > open image menu, pay attention to imageID
+   > open cmd and run docker run -p 2181:2181 -p 9092:9092 -e ADVERTISED_HOST=localhost bb7d8cc6a364
