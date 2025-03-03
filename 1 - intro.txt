@@ -16,3 +16,11 @@ example of real time data processing
 
 real-time process
 Data Ingestion (from API, log, or other sources) > stream processing [kafka](as bridge to process what method our data should done, prediction, update data, show notification, etc) > output and action
+
+WHY KAFKA?
+Kafka is one of the Distributed Event Streaming Platform that helps to handle large data streams in real-time.
+how is it works?
+1. Producer (produce data)
+2. kafka will flow the data into each process as their need (topic)
+3. broker (store data and manage distribution)
+4. consumer (receive data from kafka and process it)
